@@ -1,0 +1,23 @@
+# Python cache
+__pycache__/
+*.pyc
+
+# Virtual environment
+venv/
+
+# Jupyter checkpoints
+.ipynb_checkpoints/
+
+# SQLite database
+*.db
+
+# Environment variables
+.env
+
+# VS Code
+.vscode/
+
+# Large data files
+data/
+*.csv
+*.xlsx
