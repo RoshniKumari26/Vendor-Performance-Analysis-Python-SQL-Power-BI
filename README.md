@@ -72,9 +72,6 @@ The final `vendor_sales_summary` table (exported to `vendor_sales_summary.csv`) 
 ## Repository Structure
 
 ```
-├── logs/
-│   └── ingestion_db.log               # Auto-generated ingestion logs
-    └── get_vendor_summary.log         # Auto-Creation and Cleaning of Vendor Summary Table 
 ├── ingestion_db.py                    # Script: CSV -> SQLite ingestion
 ├── csv_to_db.ipynb                    # Notebook version of the ingestion step
 ├── EDA.ipynb                          # DB exploration, SQL aggregation, vendor_sales_summary creation
